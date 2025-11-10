@@ -1,6 +1,6 @@
 {
   "name": "tabrouter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A tab-based routing system for React applications using Context API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -39,7 +39,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/kai-zen/tabrouter.git"
   }
 }
 

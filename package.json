@@ -1,0 +1,45 @@
+{
+  "name": "tabrouter",
+  "version": "1.0.1",
+  "description": "A tab-based routing system for React applications using Context API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "context",
+    "routing",
+    "tabs",
+    "router",
+    "tab-router",
+    "react-router",
+    "context-api",
+    "usecontext"
+  ],
+  "author": {
+    "name": "Ali Razipour",
+    "email": "me.kaizen.js@gmail.com"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
+
